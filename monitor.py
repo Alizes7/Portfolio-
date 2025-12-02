@@ -165,6 +165,9 @@ threading.Thread(target=fetch_agendor_data, daemon=True).start()
 threading.Thread(target=metrics_update_scheduler, daemon=True).start()
 print(">>> Threads de fundo iniciadas.")
 
+import os
+
 if __name__ == '__main__':
-    print(f">>> SERVIDOR DE TESTE PRONTO. Acessível em http://localhost:2112")
-    app.run(host='0.0.0.0', port=2112, debug=False)
+    PORT = int(os.environ.get("PORT", 5000))
+    print(f">>> SERVIDOR PRONTO NA PORTA {PORT}")
+    app.run(host='0.0.0.0', port=PORT)
