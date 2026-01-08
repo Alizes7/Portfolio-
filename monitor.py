@@ -12,11 +12,11 @@ app = Flask(__name__)
 # --- CONFIGURAÇÕES ---
 AGENDOR_API_TOKEN = '8098628e-9312-445d-8534-eed86db7a36e'
 SALES_GOALS = {
-    'Michelly': 93000,
-    'Miguel': 68000,
-    'Alisson': 48000,
-    'Karina': 36000,
-    'Karina': 36000
+    'Michelly': 135000,
+    'Miguel': 65000,
+    'Alisson': 80000,
+    'Karina': 45000,
+    'Karina': 45000
 }
 VALID_SALESPEOPLE = list(SALES_GOALS.keys())
 # --- FIM DAS CONFIGURAÇÕES ---
