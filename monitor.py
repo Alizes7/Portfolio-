@@ -15,8 +15,8 @@ SALES_GOALS = {
     'Michelly': 112000,
     'Miguel': 65000,
     'Alisson': 75000,
-    'Karina': 52000,
-    'Karina': 38000
+    'Victor': 38000,
+    'Karina': 52000
 }
 VALID_SALESPEOPLE = list(SALES_GOALS.keys())
 # --- FIM DAS CONFIGURAÇÕES ---
